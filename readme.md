@@ -55,6 +55,7 @@ v18.15.0
 
 https://code.visualstudio.com/docs/?dv=win
 
-7. git を "64-bit Git for Windows Setup." からダウンロードしてインストール、オプションは全て気にせず次へ、でok
-
-https://git-scm.com/download/win
+7. git を 以下でインストール
+```
+> winget install --id Git.Git -e --source winget
+```
