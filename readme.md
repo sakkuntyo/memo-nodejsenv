@@ -59,7 +59,7 @@ https://code.visualstudio.com/docs/?dv=win
 ```
 > winget install --id Git.Git -e --source winget
 ```
-8. git がインストールされた事を確認
+8. PowerShell を起動しなおして、git がインストールされた事を確認
 ```
 > git -v
 git version 2.38.1.windows.1
