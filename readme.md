@@ -1,6 +1,7 @@
 
 # windows 向け
 1. 以下から nvm の nvm-setup.exe を ダウンロードしてインストール
+
 https://github.com/coreybutler/nvm-windows/releases
 
 nvm ・・・ nodejs の バージョン管理ツール
@@ -49,3 +50,7 @@ Usage:
 > node -v
 v18.15.0
 ```
+
+6. visual studio code をインストール、オプションは全て気にせず次へ、でok
+
+https://code.visualstudio.com/docs/?dv=win
