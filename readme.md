@@ -61,5 +61,6 @@ https://code.visualstudio.com/docs/?dv=win
 ```
 8. git がインストールされた事を確認
 ```
-> winget install --id Git.Git -e --source winget
+> git -v
+git version 2.38.1.windows.1
 ```
