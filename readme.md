@@ -51,6 +51,10 @@ Usage:
 v18.15.0
 ```
 
-6. visual studio code をインストール、オプションは全て気にせず次へ、でok
+6. visual studio code をダウンロードしてインストール、オプションは全て気にせず次へ、でok
 
 https://code.visualstudio.com/docs/?dv=win
+
+7. git を "64-bit Git for Windows Setup." からダウンロードしてインストール、オプションは全て気にせず次へ、でok
+
+https://git-scm.com/download/win
