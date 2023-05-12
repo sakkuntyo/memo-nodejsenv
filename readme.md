@@ -59,3 +59,7 @@ https://code.visualstudio.com/docs/?dv=win
 ```
 > winget install --id Git.Git -e --source winget
 ```
+8. git がインストールされた事を確認
+```
+> winget install --id Git.Git -e --source winget
+```
