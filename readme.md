@@ -1,5 +1,5 @@
 
-# windows 向け
+# 環境構築(Windows)
 1. 以下から nvm の nvm-setup.exe を ダウンロードしてインストール
 
 https://github.com/coreybutler/nvm-windows/releases
@@ -64,4 +64,39 @@ https://code.visualstudio.com/docs/?dv=win
 ```
 > git -v
 git version 2.38.1.windows.1
+```
+
+# bot の導入から起動 (Windows)
+
+サンプルアプリ: https://github.com/sakkuntyo/discord-sktrythmjs2
+
+1. コードの clone
+
+PowerShell で以下実行
+
+```PowerShell
+mkdir C:\sktrythmjs2
+cd C:\sktrythmjs2
+git clone https://github.com/sakkuntyo/discord-sktrythmjs2
+cd C:\sktrythmjs2\discord-sktrythmjs2
+```
+
+2. コードのビルド(Typescript)
+
+```PowerShell
+npm run build
+```
+
+3. コードの実行
+
+```PowerShell
+npm run start
+```
+
+4. 実行のデーモン化
+
+```PowerShell
+npm install -g pm2
+pm2 start .\build\main.js --name=rythm2
+pm2 save
 ```
