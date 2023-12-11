@@ -70,16 +70,15 @@ git version 2.38.1.windows.1
 
 サンプルアプリ: https://github.com/sakkuntyo/discord-sktrythmjs2
 
-0. discord developer から色々設定していく
-
+1. discord developer から色々設定していく
   1.アプリケーション作成
   2. intent 全て許可
   3. Client ID と トークンのコピー
   4. URL作成(bot と application.command)
 
-PowerShell で以下を実行していく
+この後から PowerShell で以下を実行していく
 
-1. コードの clone
+2. コードの clone
 
 ```PowerShell
 mkdir C:\sktrythmjs2
@@ -89,19 +88,19 @@ cd C:\sktrythmjs2\discord-sktrythmjs2
 npm install
 ```
 
-2. コードのビルド(Typescript)
+3. コードのビルド(Typescript)
 
 ```PowerShell
 npm run compile
 ```
 
-3. コードの実行
+4. コードの実行
 
 ```PowerShell
 npm run start
 ```
 
-4. OSと同時に起動する様にする
+5. OSと同時に起動する様にする
 
 管理者権限で PowerShell を起動して以下実行
 
@@ -116,20 +115,20 @@ pm2-startup install
 pm2 save
 ```
 
-5. OSと同時に起動するアプリの一覧
+6. OSと同時に起動するアプリの一覧
 
 ```PowerShell
 pm2 list
 ```
 
-6. OSと同時に起動しない様にする
+7. OSと同時に起動しない様にする
 
 ```PowerShell
 pm2 delete rythm2
 pm2 save
 ```
 
-7. 再起動
+8. 再起動
 
 ```PowerShell
 pm2 restart
