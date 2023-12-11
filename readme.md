@@ -79,6 +79,7 @@ mkdir C:\sktrythmjs2
 cd C:\sktrythmjs2
 git clone https://github.com/sakkuntyo/discord-sktrythmjs2
 cd C:\sktrythmjs2\discord-sktrythmjs2
+npm install
 ```
 
 2. コードのビルド(Typescript)
