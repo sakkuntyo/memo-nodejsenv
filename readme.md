@@ -85,7 +85,7 @@ npm install
 2. コードのビルド(Typescript)
 
 ```PowerShell
-npm run build
+npm run compile
 ```
 
 3. コードの実行
