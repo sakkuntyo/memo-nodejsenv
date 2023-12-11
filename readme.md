@@ -70,9 +70,9 @@ git version 2.38.1.windows.1
 
 サンプルアプリ: https://github.com/sakkuntyo/discord-sktrythmjs2
 
-1. コードの clone
+PowerShell で以下を実行していく
 
-PowerShell で以下実行
+1. コードの clone
 
 ```PowerShell
 mkdir C:\sktrythmjs2
