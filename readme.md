@@ -72,7 +72,10 @@ git version 2.38.1.windows.1
 
 0. discord developer から色々設定していく
 
-
+  1.アプリケーション作成
+  2. intent 全て許可
+  3. Client ID と トークンのコピー
+  4. URL作成(bot と application.command)
 
 PowerShell で以下を実行していく
 
