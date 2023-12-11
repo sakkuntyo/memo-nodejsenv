@@ -71,7 +71,6 @@ git version 2.38.1.windows.1
 サンプルアプリ: https://github.com/sakkuntyo/discord-sktrythmjs2
 
 1. discord developer から色々設定していく
-   
   1. アプリケーション作成
   3. intent 全て許可
   4. Client ID と トークンのコピー
