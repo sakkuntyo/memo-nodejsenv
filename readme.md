@@ -70,6 +70,10 @@ git version 2.38.1.windows.1
 
 サンプルアプリ: https://github.com/sakkuntyo/discord-sktrythmjs2
 
+0. discord developer から色々設定していく
+
+
+
 PowerShell で以下を実行していく
 
 1. コードの clone
@@ -96,8 +100,14 @@ npm run start
 
 4. OSと同時に起動する様にする
 
+管理者権限で PowerShell を起動して以下実行
+
 ```PowerShell
-npm install -g pm2-windows-startup
+Set-ExecutionPolicy Unrestricted
+```
+
+```PowerShell
+npm install -g pm2-windows-startup pm2
 pm2 start .\build\main.js --name=rythm2
 pm2 startup
 pm2 save
