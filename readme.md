@@ -109,7 +109,7 @@ Set-ExecutionPolicy Unrestricted
 ```PowerShell
 npm install -g pm2-windows-startup pm2
 pm2 start .\build\main.js --name=rythm2
-pm2 startup
+pm2-startup install
 pm2 save
 ```
 
