@@ -93,10 +93,24 @@ npm run build
 npm run start
 ```
 
-4. 実行のデーモン化
+4. OSと同時に起動する様にする
 
 ```PowerShell
-npm install -g pm2
+npm install -g pm2-windows-startup
 pm2 start .\build\main.js --name=rythm2
+pm2 startup
+pm2 save
+```
+
+5. OSと同時に起動するアプリの一覧
+
+```PowerShell
+pm2 list
+```
+
+6. OSと同時に起動しない様にする
+
+```PowerShell
+pm2 delete rythm2
 pm2 save
 ```
