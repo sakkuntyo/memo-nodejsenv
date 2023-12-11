@@ -125,3 +125,9 @@ pm2 list
 pm2 delete rythm2
 pm2 save
 ```
+
+7. 再起動
+
+```PowerShell
+pm2 restart
+```
